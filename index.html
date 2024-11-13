@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartelera de Reciclaje</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cartelera">
+        <div id="contenido" class="pagina pagina-activa">
+            <!-- Página 1 -->
+            <h1 class="titulo">¡Reciclemos Juntos!</h1>
+            <p class="mensaje">El reciclaje es clave para un planeta más limpio. Aprende cómo clasificar y reciclar correctamente.</p>
+            <div class="imagen-reciclaje">
+                <img src="https://i.pinimg.com/736x/a8/93/de/a893de579a5057f0a275e7577c272a21.jpg" alt="Símbolo de reciclaje">
+            </div>
+        </div>
+
+        <div id="contenido2" class="pagina">
+            <!-- Página 2 -->
+            <h2 class="subtitulo">Beneficios del Reciclaje</h2>
+            <ul class="lista">
+                <li>Reduce la contaminación: menos basura en vertederos y océanos.</li>
+                <li>Ahorra energía: fabricar con materiales reciclados consume menos energía.</li>
+                <li>Conserva recursos naturales: usamos menos materiales vírgenes.</li>
+            </ul>
+        </div>
+
+        <div id="contenido3" class="pagina">
+            <!-- Página 3 -->
+            <h2 class="subtitulo">Materiales que Puedes Reciclar</h2>
+            <ul class="lista">
+                <li><strong>Papel y Cartón:</strong> Revistas, periódicos, cajas de cartón.</li>
+                <li><strong>Plásticos:</strong> Botellas, envases, bolsas (limpias y secas).</li>
+                <li><strong>Vidrio:</strong> Botellas, frascos (sin tapas ni etiquetas).</li>
+                <li><strong>Metales:</strong> Latas de aluminio, objetos de metal.</li>
+            </ul>
+        </div>
+
+        <div class="paginacion">
+            <button class="boton" onclick="cambiarPagina(-1)">Anterior</button>
+            <button class="boton" onclick="cambiarPagina(1)">Siguiente</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
